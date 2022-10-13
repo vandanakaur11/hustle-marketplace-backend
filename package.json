@@ -1,0 +1,41 @@
+{
+  "name": "hustle-marketplace-backend",
+  "version": "1.0.0",
+  "description": "This repo for hustle marketplace backend app",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server",
+    "dev": "cross-env NODE_ENV=development nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamsoftapps/hustle-marketplace-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamsoftapps/hustle-marketplace-backend/issues"
+  },
+  "homepage": "https://github.com/teamsoftapps/hustle-marketplace-backend#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.32.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
